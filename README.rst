@@ -39,6 +39,20 @@ popular searches from the internet as a whole. As you are typing
 with each keypress. It may even suggest "google.com" before you finish typing
 it.
 
+After the browser receives the event of the "g" key being pressed, it triggers a series of actions within the browser and potentially the operating system. These actions include:
+
+1. **Event Handling**: The browser's event handling mechanism captures the keystroke event and triggers the appropriate action associated with it.
+
+2. **Auto-Complete Functionality**: Upon receiving the keystroke event, the browser's auto-complete functionality may kick in. This feature suggests possible completions for the entered text based on the user's browsing history, bookmarks, and other relevant data.
+
+3. **Dropdown Suggestions**: Depending on the browser's algorithm and the user's browsing mode (e.g., regular mode, private/incognito mode), a dropdown menu below the URL bar may display suggestions relevant to the entered text. These suggestions are often sorted and prioritized based on factors such as search history, bookmarks, cookies, and popular searches from the internet as a whole.
+
+4. **Real-Time Refinement**: As the user continues typing, the auto-complete suggestions are refined in real-time. This refinement process involves executing various algorithms to predict and prioritize the most relevant suggestions based on the user's input.
+
+5. **Predictive Text**: In some cases, the browser may predict the complete URL "google.com" before the user finishes typing it, based on patterns in the user's browsing history or commonly visited websites.
+
+Overall, the process of handling the "g" key press involves a combination of event handling, auto-complete functionality, suggestion generation, and real-time refinement to enhance the user's browsing experience.
+
 The "enter" key bottoms out
 ---------------------------
 
